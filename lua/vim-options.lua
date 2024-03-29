@@ -7,5 +7,5 @@ vim.opt.number = true
 vim.opt.cursorline = false
 vim.opt.wrap = false
 vim.opt.mouse = "a"
-vim.opt.guicursor = "n-v-i-c:block-Cursor"
+vim.opt.guicursor = "n-v-i-c:block-Cursor" -- block cursor
 vim.opt.hlsearch = false
