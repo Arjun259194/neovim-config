@@ -18,4 +18,4 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 
 -- colorscheme
-vim.cmd.colorscheme("catppuccin")
+vim.cmd.colorscheme("gruvbox-baby")

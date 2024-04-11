@@ -15,8 +15,7 @@ return {
 			"hrsh7th/cmp-buffer",
 			"hrsh7th/cmp-path",
 		},
-		config = function()
-			local cmp = require("cmp")
+		config = function() local cmp = require("cmp")
 			require("luasnip.loaders.from_vscode").lazy_load()
 			vim.opt.completeopt = "menu,menuone,noselect"
 
